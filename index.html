@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Sikkerhet Spill</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="assets/images/favicon.png">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <div id="startMenu">
+        <h1>Cyber Sikkerhet Spill</h1>
+        <pre>
+"Cyber Sikkerhet Spill" er et actionfylt arkadespill som foregår i en futuristisk cyberspace. 
+Spilleren påtar seg rollen som en dyktig hacker som forsvarer seg mot stadig flere cybertrusler. 
+Manøvrer deg gjennom det digitale slagfeltet, skyt ned innkommende trusler med ditt kraftige cyber-våpen.
+    </pre>
+        <button id="playButton">Play</button>
+        <button id="musicToggle"><i class="fas fa-music"></i></button>
+    </div>
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="1200" height="800"></canvas>
+        <div id="score">Score: 0</div>
+        <div id="powerupInfo">
+            <img src="assets/images/powerup.png" alt="Powerup Icon">
+            <span id="powerupTimer"></span>
+        </div>
+    </div>
+</body>
+</html>
